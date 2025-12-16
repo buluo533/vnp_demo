@@ -20,7 +20,6 @@ function insert_log(log_arguments) {
     if (!Array.isArray(log_arguments)) {
         throw new Error("入参应该是数组类型");
     }
-
     let object_name = "console";
     let property_name = "log";
     let property_create = type.identifier(property_name);
